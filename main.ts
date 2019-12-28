@@ -184,13 +184,13 @@ namespace startbit {
     export function startbit_Init() {
         startbit_initRGBLight();
         serial.redirect(
-            SerialPin.P12,
-            SerialPin.P8,
-            BaudRate.BaudRate115200);
+            SerialPin.P1,
+            SerialPin.P2,
+            BaudRate.BaudRate9600);
 
-        basic.forever(() => {
+        /*basic.forever(() => {
             getHandleCmd();
-        });
+        });*/
         basic.pause(2000);
     }
 
