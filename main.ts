@@ -190,6 +190,7 @@ namespace startbit {
 
         /*basic.forever(() => {
             getHandleCmd();
+	    //
         });*/
         basic.pause(2000);
     }
